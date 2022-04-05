@@ -5,7 +5,15 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function() {
+onload = () => {
+  generateCard();
+};
+
+onclick = () => {
+  generateCard();
+};
+
+let generateCard = () => {
   var symbols = ["♥", "♠", "♣", "♦"];
   var content = [
     "A",
